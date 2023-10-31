@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nen"
+    tools:context=".ui.AccountActivity">
+
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/tbAddNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:navigationIcon="@drawable/ic_baseline_arrow_back_ios_24"
+        app:titleTextColor="#FF8C8C"
+        app:title="Tài khoản" />
+
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginBottom="500dp"
+        android:textSize="25sp"
+        android:text="Info Fragment"
+        android:textColor="#FF8C8C"
+        />
+
+
+        <Button
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/btLogout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textStyle="bold"
+            android:layout_marginTop="640dp"
+            android:text="Đăng xuất"
+            android:fontFamily="sans-serif-condensed-light"
+            android:background="@drawable/bogocbutton"
+            app:backgroundTint="@null"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+</RelativeLayout>

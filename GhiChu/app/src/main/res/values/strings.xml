@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Ghi Chú</string>
+    <string-array name="note_color">
+        <item>#EB5757</item>
+        <item>#9B51E0</item>
+        <item>#BDBDBD</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
